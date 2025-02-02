@@ -1,7 +1,10 @@
 //O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
 
+/// teste 
+
 let ListaDosnomes = [];
 let novoNome = '';
+let teste = 100 ; 
 
 function adicionarAmigo() {
     novoNome = document.getElementById('amigo').value;  // Pega o valor do input
