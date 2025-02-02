@@ -5,6 +5,7 @@
 let ListaDosnomes = [];
 let novoNome = '';
 let teste = 100 ; 
+let novoteste = ''
 
 function adicionarAmigo() {
     novoNome = document.getElementById('amigo').value;  // Pega o valor do input
@@ -21,6 +22,7 @@ function adicionarAmigo() {
 }
 
 // sortear nome
+
 
 
 function sortearAmigo() {
