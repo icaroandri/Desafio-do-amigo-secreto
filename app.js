@@ -3,21 +3,21 @@ let ListaDosnomes = [];
 let novoNome = '';
 
 function adicionarAmigo() {
-    novoNome = document.getElementById('amigo').value;  // Pega o valor do input
+    novoNome = document.getElementById('amigo').value;  
     if (novoNome === '') {
-        alert('Por favor, insira um nome.');  // Se o campo estiver vazio, alerta o usuário
+        alert('Por favor, insira um nome.');  
     } else {
-        ListaDosnomes.push(novoNome);  // Adiciona o nome à lista
+        ListaDosnomes.push(novoNome);  
         console.log(ListaDosnomes); 
         adicionarAmigosNaLista(ListaDosnomes);
         
-        // Mostra a lista atualizada no console
+       
     }
-    // Limpa o campo de input após adicionar o nome (opcional)
+  
     document.getElementById('amigo').value = ''; 
 }
 
-// sortear nome
+
 
 
 function sortearAmigo() {
@@ -47,7 +47,7 @@ function sortearAmigo() {
  }
 
  function adicionarAmigosNaLista(amigos) {
-    // 1. Obter o elemento da lista
+    
     const listaAmigos = document.getElementById('listaAmigos'); 
   
     listaAmigos.innerHTML = "";
